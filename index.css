@@ -179,7 +179,7 @@ body {
 
 #middle table {
     width: 30%;
-    margin: 6vh auto;
+    margin: 1vh auto;
 }
 
 #middle table tr td {
@@ -344,6 +344,13 @@ body {
     bottom: 0;
     font-size: 16px;
     font-weight: bold;
+}
+
+@media (max-width: 350px) {
+    #footer {
+        display: none;
+        visibility: hidden;
+    }
 }
 
 #footer a {
