@@ -435,3 +435,9 @@ body {
         width: 100%;
     }
 }
+
+@media (min-width: 1px) {
+    img#ganIMAGE {
+        display: none;
+    }
+}

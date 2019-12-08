@@ -30,9 +30,21 @@
 // const img = document.getElementById('img');
 
 // Load the model.
+let img =  document.getElementById("ganIMAGE");
+let c = document.getElementById("ganCANVAS");
+let ctx = c.getContext("2d");
+ctx.drawImage(img, 0, 0);
+
+
 cocoSsd.load().then(model => {
     // detect objects in the image.
     model.detect(img).then(predictions => {
-        console.log('Predictions: ', predictions);
+        // console.log('Predictions: ', predictions);
+        // console.log(predictions[0]['bbox']);
+        let bbox = predictions[0]['bbox'];
+        // console.log(bbox);
+        ctx.beginPath();
+        ctx.rect(Math.round(bbox[0]), Math.round(bbox[1]), Math.round(bbox[2]), Math.round(bbox[3]));
+        ctx.stroke();
     });
 });
