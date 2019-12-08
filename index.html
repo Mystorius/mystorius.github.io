@@ -9,9 +9,12 @@
     <!--    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
             crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
           crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 </head>
 <body>
 <div id="loading">
@@ -109,11 +112,11 @@
     <section>
         <h2>contact me</h2>
         <p>
-        <form>
-            <input type="text" placeholder="name" required>
-            <input type="email" placeholder="email" required><br>
-            <textarea placeholder="your message" required rows="5"></textarea><br>
-            <button class="btn_one">send</button>
+        <form method="post">
+            <input id="myName" type="text" placeholder="name" required>
+<!--            <input type="email" placeholder="email" required><br>-->
+            <textarea id="myText" placeholder="your message" required rows="5"></textarea><br>
+            <button class="btn_one" onclick="sendEmail()">send</button>
         </form>
         </p>
     </section>
@@ -141,7 +144,7 @@
             <div><i class="fas fa-circle"></i>&nbsp;TensorFlow-GPU</div>
             <div><i class="fas fa-circle"></i>&nbsp;GCP</div>
         </div>
-        <button class="btn_one">Download Paper</button>
+        <a href="papers/music_recommendation.pdf" download><button class="btn_one">Download Paper</button></a>
     </section>
     <section>
         <h2>blockchain smart contract transfer pricing model</h2>

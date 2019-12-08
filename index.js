@@ -46,6 +46,22 @@ function closecontact() {
     }, 800);
 }
 
+function sendEmail() {
+    var subject = document.getElementById("myName").value;
+    var body = document.getElementById("myText").value;
+    window.open(String('mailto:benjamin.pohl95^gmail.com?subject=' + subject + '&body=' + body).replace(' ^ ', ' @'));
+    // Email.send({
+    //     SecureToken: "20b94af0-6687-4467-b39e-5ce07a49355f",
+    //     // To: String('benjamin.pohl95^gmail.com').replace('^', '@'),
+    //     To: "benjamin.pohl95@gmail.com",
+    //     From: "test@test.com",
+    //     Subject: "This is the subject",
+    //     Body: "And this is the body"
+    // }).then(
+    //     message => alert(message)
+    // );
+}
+
 setTimeout(function () {
     $("#loading").addClass("animated fadeOut");
     setTimeout(function () {
