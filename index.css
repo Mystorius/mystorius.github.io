@@ -1,16 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
-body {
-    padding: 0px;
-    margin: 0px;
-    /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1491956175078-460aea0914ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1550&q=80") center center;*/
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background.webp") center center;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    font-family: 'Josefin Sans', sans-serif;
+@supports (-webkit-overflow-scrolling: touch) {
+    /* CSS specific to iOS devices */
+    body {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background.jpg") center center;
+    }
 }
+
+@supports not (-webkit-overflow-scrolling: touch) {
+    /* CSS for other than iOS devices */
+    body {
+        padding: 0px;
+        margin: 0px;
+        /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1491956175078-460aea0914ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1550&q=80") center center;*/
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background.webp") center center;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+}
+
 
 #loading {
     width: 100vw;
