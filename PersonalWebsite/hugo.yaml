@@ -1,0 +1,85 @@
+theme: ["PaperMod"]
+baseURL: https://benjaminpohl.tech
+languageCode: en-us
+title: Benjamins's Website
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Personal
+          url: personal/
+          weight: 5
+        - name: Projects
+          url: projects/
+          weight: 10
+        - name: Papers
+          url: papers/
+          weight: 15
+        # - name: Search
+        #   url: search/
+        #   weight: 10
+        # - name: Tags
+        #   url: tags/
+        #   weight: 10
+        # - name: WiKi
+        #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+
+params:
+  profileMode:
+    enabled: true
+    title: "<Title>" # optional default will be site title
+    subtitle: "🤖 Machine Learning Expert | ☕ Coffee Enthusiast | 💡 Innovator"
+    imageUrl: "/assets/profile.jpeg" # optional
+    imageTitle: "Github Profile" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Personal
+        url: "/personal"
+      - name: Projects
+        url: "/projects"
+      # - name: Github
+      #   url: "https://github.com/Mystorius"
+  
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...
+
+
+
+  socialIcons:
+    - name: github
+      title: My Github Profile
+      url: "https://github.com/Mystorius"
+    - name: Instagram
+      title: My Instagram Profile
+      url: "https://www.instagram.com/benjy___/"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/benjamin-p-4a4223177/"
+      title: My LinkedIn Profile
+    
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
