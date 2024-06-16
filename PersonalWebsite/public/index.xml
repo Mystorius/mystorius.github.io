@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Benjamins&#39;s Website</title>
-    <link>http://localhost:61273/</link>
+    <link>https://benjaminpohl.tech/</link>
     <description>Recent content on Benjamins&#39;s Website</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
-    <atom:link href="http://localhost:61273/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://benjaminpohl.tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:61273/papers/</link>
+      <link>https://benjaminpohl.tech/papers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61273/papers/</guid>
+      <guid>https://benjaminpohl.tech/papers/</guid>
       <description>Works 📚 ML Skill Profiles: An Organizational Blueprint for Scaling Enterprise ML Contributing Partner on the Applied AI Whitepaper, facilitating the delineation of essential skill profiles for successful implementation and scaling of machine learning initiatives.
 Used:
 MLOps Organization 📄 Download Whitepaper
@@ -19,17 +19,17 @@ Content-based Music Recommendation (MSc. Thesis) Recent boom in the industry of 
     </item>
     <item>
       <title></title>
-      <link>http://localhost:61273/personal/</link>
+      <link>https://benjaminpohl.tech/personal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61273/personal/</guid>
+      <guid>https://benjaminpohl.tech/personal/</guid>
       <description>Benjamin Pohl About Me &amp;ldquo;Every challenge fuels the journey towards innovation and excellence.&amp;rdquo;
 Accomplished Lead Machine Learning Engineer with over 7 years of experience in architecting and managing analytical platforms across Azure, GCP, and AWS, with a primary focus on Azure. Specializing in designing and deploying scalable machine learning models, I excel in leveraging advanced analytics to drive business insights and decision-making. Passionate about generative AI and staying ahead of emerging technologies, I am dedicated to creating innovative solutions that align with privacy and responsible AI development.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:61273/projects/</link>
+      <link>https://benjaminpohl.tech/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61273/projects/</guid>
+      <guid>https://benjaminpohl.tech/projects/</guid>
       <description>Projects 🚀 Webstore for Artisan Guizhou Chili (2024) GZChilli
 Created a webstore selling artisan Guizhou chili with features for product display, user reviews, and secure checkout.
 Entrepreneur &amp;amp; Technical Lead (2023) VEEDUS

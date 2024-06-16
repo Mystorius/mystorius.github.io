@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:61273/papers/</loc>
+    <loc>https://benjaminpohl.tech/papers/</loc>
   </url><url>
-    <loc>http://localhost:61273/personal/</loc>
+    <loc>https://benjaminpohl.tech/personal/</loc>
   </url><url>
-    <loc>http://localhost:61273/projects/</loc>
+    <loc>https://benjaminpohl.tech/projects/</loc>
   </url><url>
-    <loc>http://localhost:61273/</loc>
+    <loc>https://benjaminpohl.tech/</loc>
   </url><url>
-    <loc>http://localhost:61273/categories/</loc>
+    <loc>https://benjaminpohl.tech/categories/</loc>
   </url><url>
-    <loc>http://localhost:61273/series/</loc>
+    <loc>https://benjaminpohl.tech/series/</loc>
   </url><url>
-    <loc>http://localhost:61273/tags/</loc>
+    <loc>https://benjaminpohl.tech/tags/</loc>
   </url>
 </urlset>
