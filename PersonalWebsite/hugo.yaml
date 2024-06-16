@@ -49,7 +49,7 @@ params:
     enabled: true
     title: "<Title>" # optional default will be site title
     subtitle: "🤖 Machine Learning Expert | ☕ Coffee Enthusiast | 💡 Innovator"
-    imageUrl: "/assets/profile.jpeg" # optional
+    imageUrl: "https://github.com/Mystorius/mystorius.github.io/blob/master/PersonalWebsite/assets/images/profile.jpeg?raw=true" # optional
     imageTitle: "Github Profile" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
@@ -58,14 +58,8 @@ params:
         url: "/personal"
       - name: Projects
         url: "/projects"
-      # - name: Github
-      #   url: "https://github.com/Mystorius"
-  
-  homeInfoParams:
-    Title: Hi there wave
-    Content: Can be Info, links, about...
-
-
+      - name: Papers
+        url: "/papers"
 
   socialIcons:
     - name: github
