@@ -27,13 +27,13 @@ languages:
     menu:
       main:
         - name: Personal
-          url: personal/
+          url: personal
           weight: 5
         - name: Projects
-          url: projects/
+          url: projects
           weight: 10
         - name: Papers
-          url: papers/
+          url: papers
           weight: 15
         # - name: Search
         #   url: search/
