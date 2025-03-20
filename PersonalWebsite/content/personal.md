@@ -9,7 +9,18 @@ Accomplished Lead Machine Learning Engineer with over 7 years of experience in a
 
 ## Experience
 
-### Mercedes-Benz AG (2023-Present) - Stuttgart, Germany
+### Landesbank Baden-Württemberg (LBBW) (2024-present) - Stuttgart, Germany
+
+**Lead Expert - Machine Learning & GenAI**
+
+- **AI Platform Development:** Leading the design, architecture, and implementation of a scalable AI platform for LBBW, ensuring robust, secure, and efficient AI-driven solutions.
+- **Technical Leadership:** Defining the strategic direction for machine learning and GenAI initiatives, ensuring best practices in AI infrastructure, MLOps, and model deployment.
+- **Team Coordination:** Leading and coordinating a cross-functional team of engineers and data scientists, driving collaboration and efficient execution of AI projects.
+- **Infrastructure & Architecture:** Designing cloud-native and on-premise AI solutions, integrating advanced machine learning workflows, automation pipelines, and secure data handling practices.
+- **Strategic AI Initiatives:** Steering AI adoption across the organization, identifying impactful use cases, and aligning AI solutions with business goals to drive innovation and efficiency.
+
+
+### Mercedes-Benz AG (2023-2024) - Stuttgart, Germany
 
 **Lead Machine Learning Engineer, Research & Development**
 
