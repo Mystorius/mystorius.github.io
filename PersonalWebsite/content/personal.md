@@ -11,14 +11,13 @@ Accomplished Lead Machine Learning Engineer with over 7 years of experience in a
 
 ### Landesbank Baden-Württemberg (LBBW) (2024-present) - Stuttgart, Germany
 
-**Lead Expert - Machine Learning & GenAI**
+**Lead Expert – Machine Learning & GenAI**
 
-- **AI Platform Development:** Leading the design, architecture, and implementation of a scalable AI platform for LBBW, ensuring robust, secure, and efficient AI-driven solutions.
-- **Technical Leadership:** Defining the strategic direction for machine learning and GenAI initiatives, ensuring best practices in AI infrastructure, MLOps, and model deployment.
-- **Team Coordination:** Leading and coordinating a cross-functional team of engineers and data scientists, driving collaboration and efficient execution of AI projects.
-- **Infrastructure & Architecture:** Designing cloud-native and on-premise AI solutions, integrating advanced machine learning workflows, automation pipelines, and secure data handling practices.
-- **Strategic AI Initiatives:** Steering AI adoption across the organization, identifying impactful use cases, and aligning AI solutions with business goals to drive innovation and efficiency.
-
+- **AI Platform Development:** Leading the design, architecture, and implementation of LBBW's enterprise AI platform, delivering scalable, secure, and production-ready AI services that process **over 1 billion LLM tokens per month**.
+- **Technical Leadership:** Defining the strategic direction for machine learning and Generative AI initiatives, establishing best practices for AI infrastructure, MLOps, model deployment, and governance across the organization.
+- **Team Coordination:** Leading and mentoring a cross-functional team of engineers and data scientists while driving the successful delivery of enterprise AI initiatives in collaboration with multiple business units.
+- **Infrastructure & Architecture:** Designing cloud-native and on-premises AI solutions, building robust automation pipelines, scalable APIs, and secure data architectures supporting **more than 100,000 API requests across multiple internal business units**.
+- **Strategic AI Initiatives:** Driving enterprise-wide AI adoption by identifying high-impact use cases, delivering end-to-end AI solutions from prototype to production, and enabling measurable improvements in operational efficiency and decision-making.
 
 ### Mercedes-Benz AG (2023-2024) - Stuttgart, Germany
 
