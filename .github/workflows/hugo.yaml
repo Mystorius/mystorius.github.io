@@ -37,17 +37,20 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "latest"
           extended: true
       - name: Build Hugo site
-        run: hugo --source ./PersonalWebsite --cleanDestinationDir
+        working-directory: ./BenjaminPohl
+        run: hugo --cleanDestinationDir
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./PersonalWebsite/public   
+          path: ./BenjaminPohl/public   
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

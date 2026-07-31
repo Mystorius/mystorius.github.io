@@ -1,3 +1,9 @@
 [submodule "PersonalWebsite/themes/PaperMod"]
 	path = PersonalWebsite/themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "BenjaminPohl/themes/PaperMod"]
+	path = BenjaminPohl/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
